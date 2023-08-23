@@ -128,3 +128,24 @@ npx mocha test/test-calculator.js
 
 **Effectuer tous les tests**
 Vous pouvez créer des fichiers de test pour chaque module que vous souhaitez tester et exécuter les tests à l'aide de la commande `npm test`.
+
+```js
+(base) ➜  Test_nodejs git:(master) ✗ npm test
+
+> test-unitaire@1.0.0 test
+> mocha test/*.js
+
+  Calculator Tests
+    ✔ should correctly add two numbers
+    ✔ should correctly subtract two numbers
+
+  Database Tests
+    ✔ should retrieve users from the database
+    ✔ should validate email formats
+
+  Math
+    addition
+      ✔ devrait retourner la somme de deux nombres
+
+  5 passing (17ms)
+  ```
