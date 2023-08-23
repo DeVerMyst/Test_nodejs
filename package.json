@@ -8,8 +8,8 @@
   },
 
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "votre nom",
+  "license": "MIT",
   "devDependencies": {
     "chai": "^4.3.7",
     "mocha": "^10.2.0",

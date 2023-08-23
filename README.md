@@ -50,20 +50,25 @@ Voici une explication de chaque élément de cette structure :
 
 ```json
 {
-  "name": "votre-projet",
+  "name": "test-unitaire",
   "version": "1.0.0",
-  "description": "Description de votre projet",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "mocha test/*.js"
   },
-  "author": "Votre nom",
+
+  "keywords": [],
+  "author": "votre nom",
   "license": "MIT",
   "devDependencies": {
-    "chai": "^4.3.4",
-    "mocha": "^9.1.3"
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "sqlite3": "^5.1.6"
   }
 }
+
+
 ```
 
 Dans cet exemple, le script `"test"` exécute tous les fichiers `.js` dans le dossier `test/` à l'aide de Mocha.
