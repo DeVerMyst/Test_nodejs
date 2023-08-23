@@ -80,7 +80,7 @@ Exemple d'utilisation de Mocha et Chai :
 const { expect } = require('chai');
 // Supposons que math.js contienne des fonctions à tester
 // la fonction add et la fonction multiply
-const { add, multiply } = require('./math'); 
+const { add, multiply } = require('../src/math'); 
 
 describe('Math Functions', () => {
     it('should correctly add two numbers', () => {
@@ -107,7 +107,7 @@ Par simplicité on utilise une base de données sqlite.
 npm init -y
 npm install sqlite3 mocha chai --save-dev
 ```
-
+#### Illustration pour les codes du dépot
 **Éxecuter le test pour une fonction**
 vérifie 2+3=5 de la fonction math qui additionne deux chiffres.
 ```javascript
