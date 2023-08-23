@@ -104,13 +104,22 @@ npm install sqlite3 mocha chai --save-dev
 ```
 
 **Éxecuter le test pour une fonction**
+vérifie 2+3=5 de la fonction math qui additionne deux chiffres.
 ```javascript
-npx mocha test/test_maths.js
+npx mocha test/test-maths.js
 ```
 
-**Éxecuter le test qui check la base de données**
+**Éxecuter le test pour vérifier la base de données**
+vérifie si il y a bien deux entrées dans la base de données et vérifie que les adresses email contiennent un "@" et "."
 ```javascript
-npx mocha test/test_database.js
+npx mocha test/test-database.js
 ```
+
+**Éxecuter le test qui test une classe**
+vérifie les deux méthodes de la classe Calculator, à savoir une addition et une soustraction. 
+```javascript
+npx mocha test/test-calculator.js
+```
+
 **Effectuer tous les tests**
 Vous pouvez créer des fichiers de test pour chaque module que vous souhaitez tester et exécuter les tests à l'aide de la commande `npm test`.
